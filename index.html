@@ -3,42 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Activity 1: Basic HTML Bio</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
 
-  <h1>Nicole Lepley</h1>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <img src= alt="Your Name">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Nicole Lepley</h2>
+        <img id="bio-image" src="https://placehold.it/200x200" alt="Nicole Lepley">
+      </section>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat scelerisque semper. Praesent vitae gravida lacus. Vivamus et pellentesque turpis. Donec faucibus a nibh in convallis. Nullam hendrerit ligula in convallis scelerisque. Duis rutrum ligula non nibh pharetra feugiat. Mauris non elit eu risus aliquam semper. Curabitur tristique mollis eros nec suscipit. Nam arcu velit, suscipit vel mi vitae, rhoncus lobortis est. Praesent pretium porttitor elementum. In at congue urna. Proin finibus nibh et justo aliquet fringilla. Suspendisse luctus aliquam augue, vel ullamcorper enim fringilla dignissim. Vestibulum cursus sit amet orci a hendrerit. Cras varius libero fringilla ex ullamcorper faucibus.</a></p>
+    </section>
 
-  <p>Cupcake ipsum dolor sit amet marshmallow cotton candy apple pie. Apple pie powder liquorice shortbread sugar plum cake cake. Tiramisu I love marzipan cheesecake I love halvah apple pie oat cake. I love sweet sesame snaps chocolate bar marshmallow tootsie roll. Topping toffee lollipop gingerbread dragée carrot cake I love. Sugar plum chocolate dragée jujubes muffin gingerbread chocolate pudding dragée. Pie cookie marzipan cake dragée I love I love cupcake.</p>
-  <p>Tart tart I love tootsie roll chupa chups carrot cake danish chocolate jelly. Lollipop ice cream cupcake sesame snaps I love wafer I love tart. Halvah jelly-o candy canes dragée candy cake bonbon. Gummi bears gingerbread cotton candy fruitcake macaroon jelly-o pastry lollipop dessert. Shortbread sugar plum jelly-o oat cake liquorice gummi bears cupcake jelly dragée. Jelly-o I love I love sweet roll I love bonbon jujubes cookie.</p>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
-  <ul>
-    <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
-  </ul>
+</body>
 
-  <table>
-    <tr>
-      <th>Movies</th>
-      <th>Activity</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>Movie #1</td>
-      <td>Activity #1</td>
-      <td>Game #1</td>
-    </tr>
-    <tr>
-      <td>Movie #2</td>
-      <td>Activity #2</td>
-      <td>Game #2</td>
-    </tr>
-    <tr>
-      <td>Movie #3</td>
-      <td>Activity #3</td>
-      <td>Game #3</td>
-    </tr>
-  </table>
+</html>
